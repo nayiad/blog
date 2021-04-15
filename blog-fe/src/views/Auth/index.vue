@@ -1,0 +1,58 @@
+<template>
+    <div class="auth">
+        <div class="title-info">
+            <img src="" alt="">
+            <h2 class="title">Blog</h2>
+        </div>
+        
+        <div class="form">
+            <a-tabs>
+                <a-tab-pane key="1" tab="登入">
+                    <div class="item">
+                        <a-input placeholder="账户" />
+                    </div>
+
+                    <div class="item">
+                        <a-input placeholder="密码" />
+                    </div>
+
+                    <div class="item">
+                        <a href="">忘记密码</a>
+                    </div>
+
+                    <div class="item">
+                        <a-button size="large" type="primary">
+                            Login In
+                        </a-button>
+                    </div>
+                </a-tab-pane>
+
+                <a-tab-pane key="2" tab="注册">
+                    <div class="item">
+                        <a-input placeholder="账户" />
+                    </div>
+
+                    <div class="item">
+                        <a-input placeholder="密码" />
+                    </div>
+
+                    <div class="item">
+                        <a-input placeholder="邀请码" />
+                    </div>
+
+                    <div class="item">
+                        <a-button size="large" type="primary">
+                            Register
+                        </a-button>
+                    </div>
+                </a-tab-pane>
+            </a-tabs>
+        </div>
+    </div>
+</template>
+
+<script src="./index.js"></script>
+
+<style lang="scss" scpoed>
+    @import './index.scss';
+</style>
